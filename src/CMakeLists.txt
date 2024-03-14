@@ -4,4 +4,3 @@ file(GLOB_RECURSE SRC_FILES CONFIGURE_DEPENDS
 
 add_executable(hello ${SRC_FILES})
 target_include_directories(hello PUBLIC ${CMAKE_SOURCE_DIR}/include)
-target_link_libraries(hello PUBLIC Poco::Foundation)
